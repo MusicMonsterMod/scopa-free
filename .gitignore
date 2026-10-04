@@ -1,0 +1,16 @@
+# Local build tree: objects, AppDir, squashfs, validation dumps, Wine reference runs.
+/build/
+
+# Packaged AppImage output (regenerate with ./build.sh).
+/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor / OS noise
+*~
+*.swp
+.DS_Store
+Thumbs.db
